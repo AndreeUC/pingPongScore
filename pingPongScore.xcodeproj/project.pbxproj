@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631F9E561912A25C0078E838 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F9E551912A25C0078E838 /* arrow.png */; };
+		631F9E591912B5C10078E838 /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631F9E581912B5C10078E838 /* NewGameViewController.m */; };
+		6328C2A71917F69500399A08 /* pelotasonido.aac in Resources */ = {isa = PBXBuildFile; fileRef = 6328C2A61917F69500399A08 /* pelotasonido.aac */; };
+		6328C2A91917F76B00399A08 /* pelotasonido2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6328C2A81917F76B00399A08 /* pelotasonido2.mp3 */; };
+		63364E581915FA0F009849E1 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 63364E571915FA0F009849E1 /* ball.png */; };
+		633AA6D51914123200228498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637E29281911EC78005BDD3E /* ViewController.m */; };
+		633AACAB191564C000C15453 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633AACAA191564C000C15453 /* AVFoundation.framework */; };
+		633AACAE1915695100C15453 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633AACAD1915695100C15453 /* AudioToolbox.framework */; };
+		6374D4D41915DFDB00A40184 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6374D4D31915DFDB00A40184 /* background.png */; };
 		637E29131911EC78005BDD3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E29121911EC78005BDD3E /* Foundation.framework */; };
 		637E29151911EC78005BDD3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E29141911EC78005BDD3E /* CoreGraphics.framework */; };
 		637E29171911EC78005BDD3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E29161911EC78005BDD3E /* UIKit.framework */; };
@@ -14,13 +23,21 @@
 		637E291F1911EC78005BDD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637E291E1911EC78005BDD3E /* main.m */; };
 		637E29231911EC78005BDD3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637E29221911EC78005BDD3E /* AppDelegate.m */; };
 		637E29261911EC78005BDD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637E29241911EC78005BDD3E /* Main.storyboard */; };
-		637E29291911EC78005BDD3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637E29281911EC78005BDD3E /* ViewController.m */; };
 		637E292B1911EC78005BDD3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637E292A1911EC78005BDD3E /* Images.xcassets */; };
 		637E29321911EC78005BDD3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E29311911EC78005BDD3E /* XCTest.framework */; };
 		637E29331911EC78005BDD3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E29121911EC78005BDD3E /* Foundation.framework */; };
 		637E29341911EC78005BDD3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E29161911EC78005BDD3E /* UIKit.framework */; };
 		637E293C1911EC78005BDD3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 637E293A1911EC78005BDD3E /* InfoPlist.strings */; };
 		637E293E1911EC78005BDD3E /* pingPongScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637E293D1911EC78005BDD3E /* pingPongScoreTests.m */; };
+		63F989051916074700417A89 /* change.aac in Resources */ = {isa = PBXBuildFile; fileRef = 63F989041916074700417A89 /* change.aac */; };
+		63F989071916075D00417A89 /* switch.aac in Resources */ = {isa = PBXBuildFile; fileRef = 63F989061916075D00417A89 /* switch.aac */; };
+		63F98909191608C200417A89 /* switch2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63F98908191608C200417A89 /* switch2.mp3 */; };
+		63F9890B191609CC00417A89 /* Table-tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F9890A191609CC00417A89 /* Table-tennis.png */; };
+		63F98911191610AA00417A89 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F98910191610AA00417A89 /* pause.png */; };
+		63F989131916120800417A89 /* backPrincipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F989121916120800417A89 /* backPrincipal.png */; };
+		63F98917191612B300417A89 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F98914191612B300417A89 /* icon58.png */; };
+		63F98918191612B300417A89 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F98915191612B300417A89 /* icon80.png */; };
+		63F98919191612B300417A89 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F98916191612B300417A89 /* icon120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631F9E551912A25C0078E838 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../Downloads/arrow.png; sourceTree = "<group>"; };
+		631F9E571912B5C10078E838 /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
+		631F9E581912B5C10078E838 /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
+		6328C2A61917F69500399A08 /* pelotasonido.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = pelotasonido.aac; sourceTree = "<group>"; };
+		6328C2A81917F76B00399A08 /* pelotasonido2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pelotasonido2.mp3; sourceTree = "<group>"; };
+		63364E571915FA0F009849E1 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../ball.png; sourceTree = "<group>"; };
+		633AACAA191564C000C15453 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		633AACAD1915695100C15453 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6374D4D31915DFDB00A40184 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../background.png; sourceTree = "<group>"; };
 		637E290F1911EC78005BDD3E /* pingPongScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pingPongScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637E29121911EC78005BDD3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		637E29141911EC78005BDD3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +79,15 @@
 		637E29391911EC78005BDD3E /* pingPongScoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pingPongScoreTests-Info.plist"; sourceTree = "<group>"; };
 		637E293B1911EC78005BDD3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		637E293D1911EC78005BDD3E /* pingPongScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pingPongScoreTests.m; sourceTree = "<group>"; };
+		63F989041916074700417A89 /* change.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = change.aac; sourceTree = "<group>"; };
+		63F989061916075D00417A89 /* switch.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = switch.aac; sourceTree = "<group>"; };
+		63F98908191608C200417A89 /* switch2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = switch2.mp3; sourceTree = "<group>"; };
+		63F9890A191609CC00417A89 /* Table-tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Table-tennis.png"; sourceTree = "<group>"; };
+		63F98910191610AA00417A89 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		63F989121916120800417A89 /* backPrincipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backPrincipal.png; sourceTree = "<group>"; };
+		63F98914191612B300417A89 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		63F98915191612B300417A89 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		63F98916191612B300417A89 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633AACAE1915695100C15453 /* AudioToolbox.framework in Frameworks */,
+				633AACAB191564C000C15453 /* AVFoundation.framework in Frameworks */,
 				637E29151911EC78005BDD3E /* CoreGraphics.framework in Frameworks */,
 				637E29171911EC78005BDD3E /* UIKit.framework in Frameworks */,
 				637E29131911EC78005BDD3E /* Foundation.framework in Frameworks */,
@@ -83,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				637E29181911EC78005BDD3E /* pingPongScore */,
-				637E29371911EC78005BDD3E /* pingPongScoreTests */,
 				637E29111911EC78005BDD3E /* Frameworks */,
 				637E29101911EC78005BDD3E /* Products */,
 			);
@@ -101,6 +137,8 @@
 		637E29111911EC78005BDD3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				633AACAD1915695100C15453 /* AudioToolbox.framework */,
+				633AACAA191564C000C15453 /* AVFoundation.framework */,
 				637E29121911EC78005BDD3E /* Foundation.framework */,
 				637E29141911EC78005BDD3E /* CoreGraphics.framework */,
 				637E29161911EC78005BDD3E /* UIKit.framework */,
@@ -112,9 +150,25 @@
 		637E29181911EC78005BDD3E /* pingPongScore */ = {
 			isa = PBXGroup;
 			children = (
+				6328C2A81917F76B00399A08 /* pelotasonido2.mp3 */,
+				6328C2A61917F69500399A08 /* pelotasonido.aac */,
+				63F98914191612B300417A89 /* icon58.png */,
+				63F98915191612B300417A89 /* icon80.png */,
+				63F98916191612B300417A89 /* icon120.png */,
+				63F989121916120800417A89 /* backPrincipal.png */,
+				63F98910191610AA00417A89 /* pause.png */,
+				63F9890A191609CC00417A89 /* Table-tennis.png */,
+				63F98908191608C200417A89 /* switch2.mp3 */,
+				63F989061916075D00417A89 /* switch.aac */,
+				63F989041916074700417A89 /* change.aac */,
+				63364E571915FA0F009849E1 /* ball.png */,
+				6374D4D31915DFDB00A40184 /* background.png */,
+				631F9E571912B5C10078E838 /* NewGameViewController.h */,
+				631F9E581912B5C10078E838 /* NewGameViewController.m */,
 				637E29211911EC78005BDD3E /* AppDelegate.h */,
 				637E29221911EC78005BDD3E /* AppDelegate.m */,
 				637E29241911EC78005BDD3E /* Main.storyboard */,
+				631F9E551912A25C0078E838 /* arrow.png */,
 				637E29271911EC78005BDD3E /* ViewController.h */,
 				637E29281911EC78005BDD3E /* ViewController.m */,
 				637E292A1911EC78005BDD3E /* Images.xcassets */,
@@ -126,6 +180,7 @@
 		637E29191911EC78005BDD3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				637E29371911EC78005BDD3E /* pingPongScoreTests */,
 				637E291A1911EC78005BDD3E /* pingPongScore-Info.plist */,
 				637E291B1911EC78005BDD3E /* InfoPlist.strings */,
 				637E291E1911EC78005BDD3E /* main.m */,
@@ -141,7 +196,7 @@
 				637E29381911EC78005BDD3E /* Supporting Files */,
 			);
 			path = pingPongScoreTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		637E29381911EC78005BDD3E /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -228,9 +283,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F98918191612B300417A89 /* icon80.png in Resources */,
+				6374D4D41915DFDB00A40184 /* background.png in Resources */,
 				637E292B1911EC78005BDD3E /* Images.xcassets in Resources */,
+				63F98917191612B300417A89 /* icon58.png in Resources */,
+				6328C2A71917F69500399A08 /* pelotasonido.aac in Resources */,
 				637E291D1911EC78005BDD3E /* InfoPlist.strings in Resources */,
+				63F989051916074700417A89 /* change.aac in Resources */,
 				637E29261911EC78005BDD3E /* Main.storyboard in Resources */,
+				631F9E561912A25C0078E838 /* arrow.png in Resources */,
+				63F98909191608C200417A89 /* switch2.mp3 in Resources */,
+				63F989131916120800417A89 /* backPrincipal.png in Resources */,
+				6328C2A91917F76B00399A08 /* pelotasonido2.mp3 in Resources */,
+				63F9890B191609CC00417A89 /* Table-tennis.png in Resources */,
+				63F98919191612B300417A89 /* icon120.png in Resources */,
+				63F98911191610AA00417A89 /* pause.png in Resources */,
+				63364E581915FA0F009849E1 /* ball.png in Resources */,
+				63F989071916075D00417A89 /* switch.aac in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637E29291911EC78005BDD3E /* ViewController.m in Sources */,
+				631F9E591912B5C10078E838 /* NewGameViewController.m in Sources */,
 				637E29231911EC78005BDD3E /* AppDelegate.m in Sources */,
+				633AA6D51914123200228498 /* ViewController.m in Sources */,
 				637E291F1911EC78005BDD3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +387,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -355,7 +426,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -376,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pingPongScore/pingPongScore-Prefix.pch";
 				INFOPLIST_FILE = "pingPongScore/pingPongScore-Info.plist";
@@ -389,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pingPongScore/pingPongScore-Prefix.pch";
 				INFOPLIST_FILE = "pingPongScore/pingPongScore-Info.plist";
@@ -437,6 +511,71 @@
 			};
 			name = Release;
 		};
+		6385CBAB19182D130011F02F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		6385CBAC19182D130011F02F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SYS US LLC (FWKQLUDXCG)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingPongScore/pingPongScore-Prefix.pch";
+				INFOPLIST_FILE = "pingPongScore/pingPongScore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		6385CBAD19182D130011F02F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pingPongScore.app/pingPongScore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingPongScore/pingPongScore-Prefix.pch";
+				INFOPLIST_FILE = "pingPongScoreTests/pingPongScoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +584,7 @@
 			buildConfigurations = (
 				637E293F1911EC78005BDD3E /* Debug */,
 				637E29401911EC78005BDD3E /* Release */,
+				6385CBAB19182D130011F02F /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -454,16 +594,20 @@
 			buildConfigurations = (
 				637E29421911EC78005BDD3E /* Debug */,
 				637E29431911EC78005BDD3E /* Release */,
+				6385CBAC19182D130011F02F /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		637E29441911EC78005BDD3E /* Build configuration list for PBXNativeTarget "pingPongScoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				637E29451911EC78005BDD3E /* Debug */,
 				637E29461911EC78005BDD3E /* Release */,
+				6385CBAD19182D130011F02F /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
