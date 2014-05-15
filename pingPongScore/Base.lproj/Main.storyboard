@@ -82,14 +82,12 @@
                                     <action selector="score2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VsE-h0-Iib"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10j-E9-iFq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10j-E9-iFq">
                                 <rect key="frame" x="40" y="106" width="106" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="106" id="EQp-ul-Rhk"/>
-                                    <constraint firstAttribute="height" constant="106" id="Jr3-Yo-Hbb"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="90" id="fag-vD-8ZR"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="103" id="kvZ-y3-b18"/>
+                                    <constraint firstAttribute="width" constant="106" id="XGK-Bv-PTb"/>
+                                    <constraint firstAttribute="height" constant="106" id="oyL-2T-owl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="32"/>
                                 <state key="normal" title="0" backgroundImage="ball.png">
@@ -106,14 +104,15 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="k9t-yh-tlr" secondAttribute="bottom" constant="20" id="40c-zZ-Xxq"/>
                             <constraint firstItem="E2x-WM-Ifz" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="23" id="6Bc-Oi-jqx"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="2rU-LL-Hq0" secondAttribute="bottom" id="6jc-Uo-UON"/>
+                            <constraint firstItem="10j-E9-iFq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="9Dy-on-Idd"/>
                             <constraint firstItem="fKK-Xv-rqe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="29" id="Ouj-AW-z4h"/>
+                            <constraint firstItem="10j-E9-iFq" firstAttribute="top" secondItem="fKK-Xv-rqe" secondAttribute="bottom" constant="3" id="SjK-kR-26F"/>
                             <constraint firstItem="fKK-Xv-rqe" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="23" id="TmL-5j-AE5"/>
                             <constraint firstAttribute="trailing" secondItem="2rU-LL-Hq0" secondAttribute="trailing" id="ZG6-Py-NWj"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rI0-Mj-Yod" secondAttribute="trailing" constant="34" id="f5m-vF-qBn"/>
                             <constraint firstItem="k9t-yh-tlr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="fbo-zY-k21"/>
                             <constraint firstItem="2rU-LL-Hq0" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="i4y-Es-qkm"/>
                             <constraint firstAttribute="centerX" secondItem="8pm-GE-Y1W" secondAttribute="centerX" id="kN0-qZ-JUe"/>
-                            <constraint firstItem="10j-E9-iFq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="40" id="oLC-ZW-uJG"/>
                             <constraint firstAttribute="centerY" secondItem="8pm-GE-Y1W" secondAttribute="centerY" id="rfv-nb-s6K"/>
                             <constraint firstAttribute="trailing" secondItem="E2x-WM-Ifz" secondAttribute="trailing" constant="23" id="wzj-Fg-bjr"/>
                             <constraint firstItem="2rU-LL-Hq0" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="zuW-Ju-W8Z"/>
